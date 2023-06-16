@@ -1,0 +1,135 @@
+body {
+    background-image: linear-gradient(to right, #7C3AED 0%, #4C1D95 100%);
+    font-family: 'Staatliches', cursive;
+}
+html {
+    font-size: 62.5%;
+}
+nav {
+    width: 100%;
+    background-color: #8B5CF6;
+    margin-bottom: 2rem;
+    border-bottom-width: 1px;
+    border-bottom-color: rgba(0, 0, 0, 0.1);
+    color: white;
+}
+.card{
+    width: 80%;
+    color: white;
+    border-radius: 1rem;
+    padding: 2rem;   
+    margin: 0 auto;
+    margin-bottom: 2rem;
+    background: linear-gradient(to bottom, #8B5CF6, #7C3AED );
+} 
+@media (min-width: 768px) { 
+    .card{
+        width: 40rem;
+    }
+}
+img{
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+} 
+
+h1 {
+    font-family: 'Staatliches', cursive;
+    font-size: 5rem;
+    padding: 2rem 0;
+    margin: 0;
+}
+.resultado-title{
+    font-size: 4rem;
+    text-align: center;
+}
+.contenedor {
+    background-color: #E5E7EB;
+    max-width: 1200px;
+    margin: 0 auto;
+    border-radius: 1rem;
+}
+p {
+    font-size: 2rem;
+}
+h1, p {
+    text-align: center;
+}
+form {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 4rem;
+    background: #E5E7EB;
+    margin-bottom: 10rem;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+#app p{
+    text-align: left!important;
+    font-size: 2rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#resultado p {
+    margin: 0;
+    padding: 2rem;
+    border-bottom: 1px solid #e1e1e1;
+}
+#resultado p span {
+    font-weight: bold;
+}
+#resultado p:last-of-type{
+    border: none;
+}
+.alerta {
+    padding: 1rem;
+    text-align: center;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: white;
+    font-size: 2rem;
+}
+.error {
+    background-color: red;
+}
+
+.sitio-web  {
+    color: white;
+    display: block;
+    font-size: 4rem;
+    max-width: 1200px;
+    margin: 2rem auto;
+    text-decoration: none;
+}
+.sitio-web:hover {
+    color: white;
+}
+
+.scroll-btn-top{
+    display: none;
+    position: fixed;
+    bottom: 2rem;
+    right: 1rem;
+    z-index: 999;
+    width: 4rem;
+    height: 4rem;
+    border-radius: 18%;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    font-size: 2rem;
+    line-height: 4rem;
+    text-align: center;
+    cursor: pointer;
+    transition: .4s; 
+    padding: 0;
+    
+}
+
+.scroll-btn-top.show{
+    display: block;
+    opacity: 0.7;
+}
+.scroll-btn-top:hover{
+    opacity: 1;
+    color: #e1e1e1;
+}
